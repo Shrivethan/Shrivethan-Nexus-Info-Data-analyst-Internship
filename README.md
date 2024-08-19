@@ -1,8 +1,8 @@
 # Nexus-Info-Data-analyst-Internship
 
-#Phase I: Project 1 - Iris Dataset Analysis (Easy Level)
+**Phase I: Project 1 - Iris Dataset Analysis (Easy Level)**
 
-#Project Overview:
+**Project Overview:**
 
 The Iris dataset is one of the most famous datasets used for machine learning and statistical analysis. This project aims to analyze the Iris dataset and apply basic machine learning algorithms to predict flower species based on their characteristics.
 
