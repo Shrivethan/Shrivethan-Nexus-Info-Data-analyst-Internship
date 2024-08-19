@@ -71,6 +71,28 @@ Model Deployment:
 
 Select the best model based on evaluation results.
 Deploy the chosen model to make predictions on new or unseen data.
+
+
+# Twitter Sentiment Analysis - Internship Project Phase 2
+
+## Overview
+This project focuses on analyzing Twitter sentiment using Python, involving data preprocessing, model development, and evaluation. The process steps include:
+
+1. **Importing Libraries & Packages:** Essential libraries like Pickle, WordCloud, and WordNetLemmatizer are used.
+2. **Importing Dataset:** The Twitter dataset is loaded, with sentiment and text columns extracted and preprocessed.
+3. **Preprocessing Text:** Steps include lowercasing, replacing URLs, emojis, usernames, removing non-alphabets, stopwords, and lemmatizing.
+4. **Analysis of the Text:** Word clouds display frequent positive and negative words.
+5. **Splitting The Data:** Data is split into training and testing sets (80:20).
+6. **TF-IDF Vectorizer:** Converts text documents into vectors.
+7. **Transforming Dataset:** Data transformed into `x_train` and `x_test`.
+8. **Create & Evaluate Model:** Four models are used: MultinomialNB, BernoulliNB, LinearSVC, and Logistic Regression.
+9. **Saving & Using Models:** The vectorizer and Logistic Regression model are saved for future sentiment predictions.
+
+## Results
+- **Logistic Regression** achieved the highest accuracy (81.26%) among the models used.
+
+## Usage
+Load the saved vectorizer and Logistic Regression model to predict sentiments of new texts.
 Approach
 Loaded the dataset into a Jupyter notebook using read_csv.
 Implemented various mathematical and statistical operations on the dataset using Python libraries.
